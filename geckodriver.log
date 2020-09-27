@@ -1,0 +1,138 @@
+1598234065219	geckodriver	INFO	Listening on 127.0.0.1:51032
+1598234071832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Algeo\\AppData\\Local\\Temp\\rust_mozprofileDnBeEm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390051,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390049,name=PContent::Msg_NotifyProcessPriorityChanged) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[Parent 7452, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 7452, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+[Parent 7452, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+console.error: "Could not load engine ddg@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+[Parent 7452, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 426: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598234401697	geckodriver	INFO	Listening on 127.0.0.1:51392
+1598234408530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Algeo\\AppData\\Local\\Temp\\rust_mozprofileN5IHVV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598234560977	Marionette	INFO	Listening on port 51403
+[Parent 15912, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+console.warn: services.settings: main/public-suffix-list sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: pinning/pins sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: TypeError: NetworkError when attempting to fetch resource.
+1598234632118	Marionette	INFO	Stopped listening on port 51403
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x5F0005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+e /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1598234613543	Marionette	FATAL	Remote protocol server failed to start: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.asyncListen]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: chrome://marionette/content/server.js :: set acceptConnections :: line 99"  data: no] Stack trace: set acceptConnections()@server.js:99
+start()@server.js:124
+init/<()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/marionette.js:507
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"OS.File: flush I/O queued before profileBeforeChange","state":{"launched":true,"shutdown":false,"worker":true,"pendingReset":false,"latestSent":["Mon Aug 24 2020 03:03:47 GMT+0100 (British Summer Time)","stat"],"latestReceived":["Mon Aug 24 2020 03:03:47 GMT+0100 (British Summer Time)",{"path":"C:\\Users\\Algeo\\AppData\\Roaming\\Mozilla\\Firefox\\Crash Reports\\events","isDir":true,"isSymLink":null,"size":null,"creationDate":{},"winBirthDate":{},"lastAccessDate":{},"lastModificationDate":{},"winAttributes":{"readOnly":null,"system":null,"hidden":null}}],"messagesSent":55,"messagesReceived":55,"messagesQueued":58,"DEBUG":false,"clients":"Complete"},"filename":"resource://gre/modules/osfile/osfile_async_front.jsm","lineNumber":1652,"stack":["resource://gre/modules/osfile/osfile_async_front.jsm:setupShutdown:1652","resource://gre/modules/osfile/osfile_async_front.jsm:null:1672","resource://gre/modules/osfile.jsm:null:11","resource://gre/modules/addons/GMPProvider.jsm:null:16","resource://gre/modules/AddonManager.jsm:startup:771","resource://gre/modules/AddonManager.jsm:startup:3462","resource://gre/modules/addonManager.js:observe:87"]},{"name":"AddonManager: shutting down.","state":[{"name":"AddonManager: Waiting to start provider shutdown.","state":"Complete"},{"name":"AddonManager: Waiting for providers to shut down.","state":[{"name":"JSON store: writing data","state":"(none)","filename":"resource://gre/modules/JSONFile.jsm","lineNumber":147,"stack":["resource://gre/modules/JSONFile.jsm:JSONFile:147","resource://gre/modules/addons/XPIProvider.jsm:save:1619","resource://gre/modules/addons/XPIDatabase.jsm:updateXPIStates:2352","resource://gre/modules/addons/XPIDatabase.jsm:makeAddonVisible:2375","resource://gre/modules/addons/XPIDatabase.jsm:applyStartupChange:3465","resource://gre/modules/addons/XPIDatabase.jsm:processFileChanges:3311","resource://gre/modules/addons/XPIProvider.jsm:checkForChanges:2997","resource://gre/modules/addons/XPIProvider.jsm:startup:2457","resource://gre/modules/AddonManager.jsm:callProvider:212","resource://gre/modules/AddonManager.jsm:_startProvider:583","resource://gre/modules/AddonManager.jsm:startup:807","resource://gre/modules/AddonManager.jsm:startup:3462","resource://gre/modules/addonManager.js:observe:87"]},{"name":"XPIProvider","state":"(none)","filename":"resource://gre/modules/AddonManager.jsm","lineNumber":617,"stack":["resource://gre/modules/AddonManager.jsm:_startProvider:617","resource://gre/modules/AddonManager.jsm:startup:807","resource://gre/modules/AddonManager.jsm:startup:3462","resource://gre/modules/addonManager.js:observe:87"]}]},{"name":"AddonRepository: async shutdown","state":"pending"}],"filename":"resource://gre/modules/AddonManager.jsm","lineNumber":797,"stack":["resource://gre/modules/AddonManager.jsm:startup:797","resource://gre/modules/AddonManager.jsm:startup:3462","resource://gre/modules/addonManager.js:observe:87"]},{"name":"JSON store: writing data","state":"(none)","filename":"resource://gre/modules/JSONFile.jsm","lineNumber":147,"stack":["resource://gre/modules/JSONFile.jsm:JSONFile:147","resource://gre/modules/ExtensionPermissions.jsm:_init:76","resource://gre/modules/ExtensionPermissions.jsm:lazyInit:68","resource://gre/modules/ExtensionPermissions.jsm:get:95","resource://gre/modules/ExtensionPermissions.jsm:_get:266","resource://gre/modules/ExtensionPermissions.jsm:_getCached/<:271","resource://gre/modules/ExtensionParent.jsm:get:1829","resource://gre/modules/addons/XPIProvider.jsm:awaitPromise:228","resource://gre/modules/addons/XPIInstall.jsm:syncLoadManifest:754","resource://gre/modules/addons/XPIDatabase.jsm:addMetadata:2811","resource://gre/modules/addons/XPIDatabase.jsm:processFileChanges:3255","resource://gre/modules/addons/XPIProvider.jsm:checkForChanges:2997","resource://gre/modules/addons/XPIProvider.jsm:startup:2457","resource://gre/modules/AddonManager.jsm:callProvider:212","resource://gre/modules/AddonManager.jsm:_startProvider:583","resource://gre/modules/AddonManager.jsm:startup:807","resource://gre/modules/AddonManager.jsm:startup:3462","resource://gre/modules/addonManager.js:observe:87"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"JSON store: writing data","state":"(none)","filename":"resource://gre/modules/JSONFile.jsm","lineNumber":147,"stack":["resource://gre/modules/JSONFile.jsm:JSONFile:147","resource://gre/modules/addons/XPIProvider.jsm:save:1619","resource://gre/modules/addons/XPIDatabase.jsm:updateXPIStates:2352","resource://gre/modules/addons/XPIDatabase.jsm:makeAddonVisible:2375","resource://gre/modules/addons/XPIDatabase.jsm:applyStartupChange:3465","resource://gre/modules/addons/XPIDatabase.jsm:processFileChanges:3311","resource://gre/modules/addons/XPIProvider.jsm:checkForChanges:2997","resource://gre/modules/addons/XPIProvider.jsm:startup:2457","resource://gre/modules/AddonManager.jsm:callProvider:212","resource://gre/modules/AddonManager.jsm:_startProvider:583","resource://gre/modules/AddonManager.jsm:startup:807","resource://gre/modules/AddonManager.jsm:startup:3462","resource://gre/modules/addonManager.js:observe:87"]},{"name":"XPIProvider","state":"(none)","filename":"resource://gre/modules/AddonManager.jsm","lineNumber":617,"stack":["resource://gre/modules/AddonManager.jsm:_startProvider:617","resource://gre/modules/AddonManager.jsm:startup:807","resource://gre/modules/AddonManager.jsm:startup:3462","resource://gre/modules/addonManager.js:observe:87"]}] Barrier: AddonManager: Waiting for providers to shut down.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598234687497	geckodriver	INFO	Listening on 127.0.0.1:51722
+1598234691015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Algeo\\AppData\\Local\\Temp\\rust_mozprofile81nUde"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598234710960	Marionette	INFO	Listening on port 51730
+1598234711319	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598234832490	Marionette	INFO	Stopped listening on port 51730
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598402124634	geckodriver	INFO	Listening on 127.0.0.1:64843
+1598402129531	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Algeo\\AppData\\Local\\Temp\\rust_mozprofilevs0tZA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1598402322276	Marionette	INFO	Listening on port 64855
+[Child 12432, AudioIPC0] WARNING: 2d2b285cd90 StateCallback() state 1 cubeb error: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp, line 666
+[Child 12432, MediaDecoderStateMachine #1] WARNING: Decoder=2d2b2530800 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3891
+JavaScript error: , line 0: uncaught exception: Object
+ript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+[Parent 4532, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1598402643554	Marionette	INFO	Listening on port 65151
+1598402644752	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: uncaught exception: Object
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 13260, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 524
