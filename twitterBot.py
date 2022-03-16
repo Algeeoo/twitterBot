@@ -66,6 +66,6 @@ def main(keywords):
     
 
 if __name__ == "__main__":
-    main(["IFB"])
+    main(["Traffic", "Funnytweet", "informationsecurity", "relationships", "businessandfinance", "TweetfromLegitTweeterVendors", "FunnyTweets", "Graduateschool"])
 
 
